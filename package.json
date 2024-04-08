@@ -1,0 +1,17 @@
+{
+  "name": "draft",
+  "version": "1.0.0",
+  "description": "draft db for pd library",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Moneygers",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2"
+  }
+}
